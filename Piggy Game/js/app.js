@@ -1,4 +1,4 @@
-//loadApp();
+loadApp();
 $get_names = $$('#start form [type=text]');
 submit($('form'), () => {
     html($('.p1 h2'), $get_names[0].value);
