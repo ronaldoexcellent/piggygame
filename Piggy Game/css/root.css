@@ -16,6 +16,7 @@
 }
 
 form {
+    overflow: auto;
     top: 40%; right: 0;
     transform: translateX(-30%) translateY(-40%);
     padding: 3%;
